@@ -1,0 +1,13 @@
+.card{
+    background-color: black;
+    color: aliceblue;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.butt{
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
+}

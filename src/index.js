@@ -6,11 +6,13 @@ import UseState from './Hooks/useState';
 import UseEffect from './Hooks/useEffect';
 import Card from './props/Card';
 import Box from './props/Box';
+import File from './styling/File';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Box/>
+    {/* <Box/> */}
+    <File/>
   </React.StrictMode>
 );
