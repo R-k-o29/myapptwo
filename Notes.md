@@ -27,6 +27,7 @@ Hooks
 -> used to see if any components is rendered or rerendered 
 
 -> Popular usecases:
+
     - Toggle timer
 
     - Fetching data using API
