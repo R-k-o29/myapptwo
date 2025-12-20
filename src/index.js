@@ -7,7 +7,7 @@ import UseEffect from './Hooks/useEffect';
 import Card from './props/Card';
 import Box from './props/Box';
 import File from './styling/File';
-import Example2 from './Hooks/example2';
+import Example3 from './Hooks/example3';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +15,6 @@ root.render(
     {/* <App /> */}
     {/* <Box/> */}
     {/* <File/> */}
-    <Example2/>
+    <Example3/>
   </React.StrictMode>
 );
