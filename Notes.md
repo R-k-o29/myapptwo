@@ -11,6 +11,7 @@ Hooks
 1. useState 
 
 -> import {useState} from "react"
+
 -> Syntax:
     - const [value,setValue] = useState(initialValue);
     - Using setValue(setState) one can modify the state(data) of a component
@@ -18,8 +19,11 @@ Hooks
 2. useEffect
 
 -> import {useEffect} from "react"
+
 -> Helps us decide the lifecycle of the components
+
 -> used to see if any components is rendered or rerendered 
+
 -> Popular usecases:
     - Toggle timer
     - Fetching data using API
