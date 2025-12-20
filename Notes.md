@@ -13,6 +13,7 @@ Hooks
 -> import {useState} from "react"
 
 -> Syntax:
+
     - const [value,setValue] = useState(initialValue);
     - Using setValue(setState) one can modify the state(data) of a component
 
