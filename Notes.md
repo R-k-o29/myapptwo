@@ -15,6 +15,7 @@ Hooks
 -> Syntax:
 
     - const [value,setValue] = useState(initialValue);
+
     - Using setValue(setState) one can modify the state(data) of a component
 
 2. useEffect
@@ -27,10 +28,13 @@ Hooks
 
 -> Popular usecases:
     - Toggle timer
+
     - Fetching data using API
+
     - unmounting component (cleanup function inside the useEffect)
 
 -> Syntax:
+
     useEffect(
         ()=>{
             //arrow function code
