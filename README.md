@@ -67,6 +67,7 @@
     - Mounting/ Initialization
     - Updating
     - Unmounting
+    
 - Component Categories
     - Stateless components - {has only props} also called as presentational components
     - Stateful components - {has state and props} also called as container components

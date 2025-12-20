@@ -2,8 +2,6 @@ States:
 - States can be considered as changing data of a component
 - States can be initialized only inside the component
 
-
-
 Hooks
 
 -> Manages states in reactJs
