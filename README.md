@@ -1,5 +1,25 @@
 - React Intro
-    -Virtual DOM
+    {
+      - Opensource js library created by facebook in 2011 for building UI
+    }
+    - Virtual DOM { it is in memory light weigth representation of DOM, used for faster 
+    update of DOM }
+
+    - **Diffing**:
+      Virtual DOM uses it's own algorithm to find the difference between earlier snapshot
+      which it has taken before updating with the latest DOM. This is called as DIFFING
+
+    - { React applications also contain JSX files. They get converted into JS files by a transformer/compiler before being given to react's virtual DOM. }
+
+    - ES6 features introduced in 2015
+
+    - **Transpilation**:
+      - Browser may not understand ES6 features, it can only understand plain vanilla js code. Process which converts ES6 code to plain js code is known as "Transpilation"
+
+      - The compiler which performs transpilation is called as "Transpiller"
+
+      - "BABEL" is a compiler for react application which can perform transpilation.
+
 
 - How to create a react app
   - npx create-react-app myapp
@@ -71,3 +91,5 @@
 - Component Categories
     - Stateless components - {has only props} also called as presentational components
     - Stateful components - {has state and props} also called as container components
+
+
