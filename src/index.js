@@ -8,6 +8,8 @@ import Card from './props/Card';
 import Box from './props/Box';
 import File from './styling/File';
 import Example3 from './Hooks/example3';
+import Component1 from './components/component1';
+import Increment from './jestunittest/demoTest';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +17,6 @@ root.render(
     {/* <App /> */}
     {/* <Box/> */}
     {/* <File/> */}
-    <Example3/>
+    <Increment/>
   </React.StrictMode>
 );
