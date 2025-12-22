@@ -23,6 +23,7 @@
 
 - How to create a react app
   - npx create-react-app myapp
+    - { npm create vite@latest my-app -- --template react } - latest
   - cd myapp
   - npm start
 
